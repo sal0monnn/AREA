@@ -6,7 +6,7 @@ body {
 #canvas {
   position: relative;
   top: 10px;
-  left: 700px;
+  left: 10px;
   z-index: 1;
   margin:0px;
 }

@@ -67,8 +67,8 @@ function drawExpressions(detections) {
       if (face.expressions) {
         let { neutral, happy, angry, sad, disgusted, surprised, fearful } = face.expressions;
         let {_x, _y, _width, _height} = face.alignedRect._box; 
-        let x = _x + _width/4 + 10; 
-        let y = _y + 50;
+        let x = _x + _width + 10; 
+        let y = _y + 10;
         
         textSize(18);
         noStroke();
