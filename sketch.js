@@ -7,19 +7,19 @@ let canvas;
 
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight); 
+  canvas = createCanvas(1200, 900); 
   canvas.id("canvas");
-  screen = createGraphics(1500, 1000);
+  screen = createGraphics(1200, 900);
   
   video = createCapture(VIDEO);
   video.id("video");
-  video.size(1500, 800);
-  video.position(100, 0);
+  video.size(1200, 900);
+  video.position(0, 0);
   
   const faceOptions = {
     withExpressions: true,
     withDescriptors: true,
-    minConfidence: 0.5,
+    minConfidence: 0.7,
     withLandmarks:true,
   };
 
