@@ -19,7 +19,7 @@ function setup() {
   const faceOptions = {
     withExpressions: true,
     withDescriptors: true,
-    minConfidence: 0.1,
+    minConfidence: 0.5,
     withLandmarks:true,
   };
 
